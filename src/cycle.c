@@ -1,14 +1,5 @@
 #include <cycle.h>
 
-typedef struct Cycle Cycle;
-struct Cycle {
-    int cycleX;
-};
-
-void drawWorld(SDL_Renderer *renderer, Cycle* cycle);
-void drawCycle(SDL_Renderer* renderer, Cycle* cycle);
-void drawRock(SDL_Renderer* renderer, Cycle* cycle);
-
 int main(int argc, char *argv[])
 {
 

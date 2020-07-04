@@ -9,3 +9,12 @@
 #define SCREEN_WIDTH 1920
 #define SCREEN_HEIGHT 1080
 #define GROUND_Y SCREEN_HEIGHT * 0.75
+
+typedef struct Cycle Cycle;
+struct Cycle {
+    int cycleX;
+};
+
+void drawWorld(SDL_Renderer *renderer, Cycle* cycle);
+void drawCycle(SDL_Renderer* renderer, Cycle* cycle);
+void drawRock(SDL_Renderer* renderer, Cycle* cycle);
