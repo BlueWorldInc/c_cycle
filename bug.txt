@@ -1,0 +1,4 @@
+there is a bug in windows that make the window scale 125% of the original size.
+it's completly stupid.
+If you compile with the SDL_WINDOW_FULLSCREEN_DESKTOP first it will scale to 125%
+If you compile with SDL_WINDOW_FULLSCREEN then start the app and then recompile with SDL_WINDOW_FULLSCREEN_DESKTOP flag, it should have the correct resolution...
